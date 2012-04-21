@@ -6,6 +6,5 @@ Usage
 -----
 Refer to request.php and response.php for sample code on how to use.
 
-Feedback
---------
-Feedback and suggestions are welcomed. Please contact me from http://kahthong.com
+For recurring payments, please refer to request.php as well on how to use. The code has been merged into this class.
+The callback sample is at recurring_response.php
