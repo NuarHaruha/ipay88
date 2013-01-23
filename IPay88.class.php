@@ -729,7 +729,7 @@ class IPay88 {
             $paymentDetails['MerchantCode'] = $this->getField('MerchantCode');
         }
 
-        $curl = curl_init(self::$requeryUrl . '?' . http_build_query($paymentPetails));
+        $curl = curl_init(self::$requeryUrl . '?' . http_build_query($paymentDetails));
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         $result = trim(curl_exec($curl));
         curl_close($curl);
